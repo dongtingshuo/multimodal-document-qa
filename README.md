@@ -14,6 +14,23 @@ Evidence-grounded question answering for Chinese documents. Search text, tables 
 
 An end-to-end document intelligence system with local retrieval, configurable cloud or local generation, and a separate evaluation workflow.
 
+## Product preview
+
+### Answers with verifiable evidence
+
+![Answer with its citation and highlighted source region](assets/screenshots/answer-evidence.png)
+
+Citation **E1** connects the answer to the highlighted region of the original report, making the source text and numerical values easy to verify.
+
+<details>
+<summary><strong>Document management</strong> — upload, parsing status and document inventory</summary>
+
+![Document management workspace showing uploads, parsing status and source documents](assets/screenshots/document-management.jpg)
+
+The document workspace brings file uploads, parsing status and evidence-element counts together. The counts shown belong to the example workspace and differ from the frozen evaluation corpus.
+
+</details>
+
 ## Capabilities
 
 - **Document ingestion:** PDF, DOCX, legacy DOC and images; PyMuPDF rendering, optional Docling layout parsing and RapidOCR for scanned content. Legacy DOC requires LibreOffice.

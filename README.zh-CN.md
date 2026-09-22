@@ -14,6 +14,23 @@
 
 本项目提供完整的文档智能工程实现：本地检索、可配置的云端或本地生成、文档管理界面，以及独立的实验评测流程。
 
+## 功能预览
+
+### 回答、引用与原文证据
+
+![问答结果、引用及对应原页高亮](assets/screenshots/answer-evidence.png)
+
+引用 **E1** 将回答与原始报告中的高亮区域关联，便于核对来源文字、数值和统计口径。
+
+<details>
+<summary><strong>文档管理</strong>：上传、解析状态与文档列表</summary>
+
+![文档管理工作区中的上传入口、解析状态和文档列表](assets/screenshots/document-management.jpg)
+
+文档工作区集中展示上传入口、解析状态与证据元素数量。图中数量来自示例工作区，与冻结评测语料规模不同。
+
+</details>
+
 ## 核心能力
 
 - **多格式解析：** 支持 PDF、DOCX、DOC 和图片；结合 PyMuPDF、可选 Docling 布局解析与 RapidOCR。旧版 DOC 转换需要 LibreOffice。
