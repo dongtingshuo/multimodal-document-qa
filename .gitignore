@@ -1,0 +1,44 @@
+.venv/
+.vendor/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+data/
+models/
+*.pyc
+.DS_Store
+
+# Local report deliveries, rendering outputs and development artifacts
+output/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.log
+
+# Editor settings, credentials and generated desktop bundle
+.idea/
+.vscode/
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.app/
+*.pem
+*.key
+
+# Publish only maintained engineering documentation
+/docs/*
+!/docs/CONFIGURATION.md
+!/docs/EVALUATION_GUIDE.md
+!/docs/EXPERIMENT_RESULTS.md
+!/docs/PROJECT_STRUCTURE.md
+!/docs/USER_GUIDE.md
+!/docs/evaluation.md
+
+*.pptx
+*.ppt
+*.docx
+*.doc

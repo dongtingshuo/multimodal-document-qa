@@ -1,0 +1,229 @@
+{
+  "name": "公开中文报告评测候选语料",
+  "documents": [
+    {
+      "title": "2024年12月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202501/t20250124_1101411.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202501/W020250124673966612456.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2024年12月全国城市空气质量报告.pdf",
+      "sha256": "99c6dd0d055f3eca90811268901c14db755db7e69753c83da52d086587579fea",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:49:03.223390+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2024年11月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202412/t20241226_1099339.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202412/W020241226373572789477.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2024年11月全国城市空气质量报告.pdf",
+      "sha256": "783b2846d1498e959cee045e6d5a16a895f4059cca04e76e5196ad6e84c9d0ab",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:49:03.590443+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2024年10月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202411/t20241122_1096004.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202411/W020241122863710893127.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2024年10月全国城市空气质量报告.pdf",
+      "sha256": "096c4f3c921a3854b028c46e87453f397c8bc80067b23ea15f6b9d9afa724f03",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:49:03.841778+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2024年9月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202410/t20241022_1089906.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202410/W020241022604712605477.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2024年9月全国城市空气质量报告.pdf",
+      "sha256": "396a42082c35451a4099cf12b837e5a1acc2d55da718724ff7196d47a339a988",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:49:04.210822+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2024年8月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202409/t20240924_1086668.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202409/W020240924585303726990.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2024年8月全国城市空气质量报告.pdf",
+      "sha256": "74e60160fec0590bf5a3b68febf015995d4b167854ad37d91596acde16f97e0c",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:49:04.486386+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2023年12月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202401/t20240125_1064734.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202401/W020240125537152570501.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2023年12月全国城市空气质量报告.pdf",
+      "sha256": "b41e6cf88f279769c4a582c634de15d123579c23cdbf11a71487e77e9fc98531",
+      "pages": 13,
+      "downloaded_at": "2026-09-09T08:49:07.636263+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2023年6月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202307/t20230724_1036950.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202307/W020230724349198651503.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2023年6月全国城市空气质量报告.pdf",
+      "sha256": "1b79c10eb1e870a60a135d5a790c2589ae80e59333e10dbbe98bf0c3a93e53f5",
+      "pages": 32,
+      "downloaded_at": "2026-09-09T08:49:09.984900+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年12月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202601/t20260130_1143297.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202601/W020260130583204381295.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年12月全国城市空气质量报告.pdf",
+      "sha256": "d93e9d8c0d13945331ddaf1a98a5b4d80e5b0acca320f778c98aa163a3bd0ed8",
+      "pages": 9,
+      "downloaded_at": "2026-09-09T08:50:48.837261+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年11月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202512/t20251231_1139487.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202512/W020251231558902713253.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年11月全国城市空气质量报告.pdf",
+      "sha256": "0e441847787f9cc414c2bee400512b2d79c960c42f8d68bb6d0f962aff1e0b4d",
+      "pages": 8,
+      "downloaded_at": "2026-09-09T08:50:48.975653+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年10月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202511/t20251128_1135218.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202511/W020251128612970756059.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年10月全国城市空气质量报告.pdf",
+      "sha256": "159a55b26ddbbaa453988e532071654751873f1550afe8257fa6149549bfde40",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:49.340848+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年9月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202510/t20251030_1131049.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202510/W020251030553506860304.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年9月全国城市空气质量报告.pdf",
+      "sha256": "235c6b674283442d615203111289ff30d0bbcfcba0d7bc3fa34e7d48624e84ed",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:50.520540+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年8月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202509/t20250926_1128326.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202509/W020250926587971460525.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年8月全国城市空气质量报告.pdf",
+      "sha256": "88f175e8586eedc3566170b4ee522de9134786b7629c72358d65e73d5bb2beb7",
+      "pages": 9,
+      "downloaded_at": "2026-09-09T08:50:51.465523+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年7月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202508/t20250829_1126324.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202508/W020250829446106175898.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年7月全国城市空气质量报告.pdf",
+      "sha256": "4d1dac3a6f29d9430daa0378c8819e9e2d0e71dd16046b206d68c0268d601328",
+      "pages": 9,
+      "downloaded_at": "2026-09-09T08:50:52.153758+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年6月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202507/t20250729_1124473.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202507/W020250729353786357806.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年6月全国城市空气质量报告.pdf",
+      "sha256": "949c0a1664394b572b369843b0efe79b2bcae5796ee122724d5e0da93f9ea061",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:52.618469+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年5月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202506/t20250627_1122138.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202506/W020250627685540300362.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年5月全国城市空气质量报告.pdf",
+      "sha256": "29c4945d63d20e72d0aee15f550d6e048dc4b933fb8f5528d4f745bf41f2fb55",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:53.080536+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年4月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202505/t20250530_1120401.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202505/W020250530385407893901.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年4月全国城市空气质量报告.pdf",
+      "sha256": "996eb44c012c32b9146c4123d48595e91dc22d9017c23a1414b47aedca8e334b",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:53.566325+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年3月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202504/t20250427_1118456.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202504/W020250427708276839066.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年3月全国城市空气质量报告.pdf",
+      "sha256": "0887836d42344a9fbc6e80368e133431f332179275866d1602422556591f72fd",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:54.103452+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年2月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202503/t20250327_1104806.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202503/W020250327376501634013.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年2月全国城市空气质量报告.pdf",
+      "sha256": "92029df5ab59a3966ba24213203f6a4c99a75035680a0b0aaf0c3f13f78f6818",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:54.322959+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "2025年1月全国城市空气质量报告",
+      "source_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202502/t20250225_1102829.shtml",
+      "download_url": "https://www.mee.gov.cn/hjzl/dqhj/cskqzlzkyb/202502/W020250225575612127292.pdf",
+      "publisher": "中华人民共和国生态环境部／中国环境监测总站",
+      "local_path": "originals/2025年1月全国城市空气质量报告.pdf",
+      "sha256": "3682574296c098bacac09e8f1b0aa6d400f11e10b42e8c7162c7b069f177c6c2",
+      "pages": 10,
+      "downloaded_at": "2026-09-09T08:50:54.710015+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    },
+    {
+      "title": "第55次中国互联网络发展状况统计报告",
+      "publisher": "中国互联网络信息中心",
+      "source_url": "https://www.cnnic.cn/n4/2025/0117/c88-11229.html",
+      "download_url": "https://www.cnnic.cn/NMediaFile/2025/0428/MAIN17458061595875K4FP1NEUO.pdf",
+      "local_path": "originals/cnnic55.pdf",
+      "pages": 75,
+      "sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e",
+      "downloaded_at": "2026-09-09T08:51:11.005825+00:00",
+      "usage_note": "官方公开报告，保留来源；未声明额外转载许可。"
+    }
+  ],
+  "notes": [
+    "20份真实原始PDF，共285页；格式转换功能另外验收。",
+    "题集未完成前不能据此声明正式评测完成。"
+  ]
+}

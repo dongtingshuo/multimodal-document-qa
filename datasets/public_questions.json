@@ -1,0 +1,2623 @@
+{
+  "name": "公开中文报告100题 v1",
+  "document_ids": [
+    "99c6dd0d055f3eca90811268",
+    "783b2846d1498e959cee045e",
+    "096c4f3c921a3854b028c46e",
+    "396a42082c35451a4099cf12",
+    "74e60160fec0590bf5a3b68f",
+    "b41e6cf88f279769c4a582c6",
+    "1b79c10eb1e870a60a135d5a",
+    "d93e9d8c0d13945331ddaf1a",
+    "0e441847787f9cc414c2bee4",
+    "159a55b26ddbbaa453988e53",
+    "235c6b674283442d61520311",
+    "88f175e8586eedc3566170b4",
+    "4d1dac3a6f29d9430daa0378",
+    "949c0a1664394b572b369843",
+    "29c4945d63d20e72d0aee15f",
+    "996eb44c012c32b9146c4123",
+    "0887836d42344a9fbc6e8036",
+    "92029df5ab59a3966ba24213",
+    "3682574296c098bacac09e8f",
+    "d20a33e7eb892f38245c5773"
+  ],
+  "annotation_method": "从原始PDF文本、印刷表格和已查看的图页提取事实，绑定原始元素；未用检索结果或模型回答生成金标准。",
+  "limitations": [
+    "语料以空气质量月报为主，题型分布不代表通用领域。",
+    "表格问题部分针对重复标准表；未跨开发/测试划分相同事实组。",
+    "图表问题来自一份报告，需在结论中说明领域与模板局限。"
+  ],
+  "questions": [
+    {
+      "id": "public-001",
+      "question": "据《2024年12月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "99c6dd0d055f3eca90811268-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "88.0%",
+      "fact_group": "2024年12月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "99c6dd0d055f3eca90811268",
+          "document_sha256": "99c6dd0d055f3eca90811268901c14db755db7e69753c83da52d086587579fea"
+        }
+      ],
+      "scoring_points": [
+        "88.0%"
+      ]
+    },
+    {
+      "id": "public-002",
+      "question": "《2024年12月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "99c6dd0d055f3eca90811268-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "43.1 μg/m³",
+      "fact_group": "2024年12月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "99c6dd0d055f3eca90811268",
+          "document_sha256": "99c6dd0d055f3eca90811268901c14db755db7e69753c83da52d086587579fea"
+        }
+      ],
+      "scoring_points": [
+        "43.1 μg/m³"
+      ]
+    },
+    {
+      "id": "public-003",
+      "question": "据《2024年11月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "783b2846d1498e959cee045e-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "93.8%",
+      "fact_group": "2024年11月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "783b2846d1498e959cee045e",
+          "document_sha256": "783b2846d1498e959cee045e6d5a16a895f4059cca04e76e5196ad6e84c9d0ab"
+        }
+      ],
+      "scoring_points": [
+        "93.8%"
+      ]
+    },
+    {
+      "id": "public-004",
+      "question": "《2024年11月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "783b2846d1498e959cee045e-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "32.4 μg/m³",
+      "fact_group": "2024年11月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "783b2846d1498e959cee045e",
+          "document_sha256": "783b2846d1498e959cee045e6d5a16a895f4059cca04e76e5196ad6e84c9d0ab"
+        }
+      ],
+      "scoring_points": [
+        "32.4 μg/m³"
+      ]
+    },
+    {
+      "id": "public-005",
+      "question": "据《2024年10月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "096c4f3c921a3854b028c46e-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "92.3%",
+      "fact_group": "2024年10月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8944102667472954,
+            0.47659074496389203
+          ],
+          "document_id": "096c4f3c921a3854b028c46e",
+          "document_sha256": "096c4f3c921a3854b028c46e87453f397c8bc80067b23ea15f6b9d9afa724f03"
+        }
+      ],
+      "scoring_points": [
+        "92.3%"
+      ]
+    },
+    {
+      "id": "public-006",
+      "question": "《2024年10月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "096c4f3c921a3854b028c46e-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "28.5 μg/m³",
+      "fact_group": "2024年10月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8944102667472954,
+            0.47659074496389203
+          ],
+          "document_id": "096c4f3c921a3854b028c46e",
+          "document_sha256": "096c4f3c921a3854b028c46e87453f397c8bc80067b23ea15f6b9d9afa724f03"
+        }
+      ],
+      "scoring_points": [
+        "28.5 μg/m³"
+      ]
+    },
+    {
+      "id": "public-007",
+      "question": "据《2024年9月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "396a42082c35451a4099cf12-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "92.8%",
+      "fact_group": "2024年9月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "396a42082c35451a4099cf12",
+          "document_sha256": "396a42082c35451a4099cf12b837e5a1acc2d55da718724ff7196d47a339a988"
+        }
+      ],
+      "scoring_points": [
+        "92.8%"
+      ]
+    },
+    {
+      "id": "public-008",
+      "question": "《2024年9月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "396a42082c35451a4099cf12-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "19 μg/m³",
+      "fact_group": "2024年9月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "396a42082c35451a4099cf12",
+          "document_sha256": "396a42082c35451a4099cf12b837e5a1acc2d55da718724ff7196d47a339a988"
+        }
+      ],
+      "scoring_points": [
+        "19 μg/m³"
+      ]
+    },
+    {
+      "id": "public-009",
+      "question": "据《2024年8月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "74e60160fec0590bf5a3b68f-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "90.1%",
+      "fact_group": "2024年8月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8943129073439491,
+            0.47659074496389203
+          ],
+          "document_id": "74e60160fec0590bf5a3b68f",
+          "document_sha256": "74e60160fec0590bf5a3b68febf015995d4b167854ad37d91596acde16f97e0c"
+        }
+      ],
+      "scoring_points": [
+        "90.1%"
+      ]
+    },
+    {
+      "id": "public-010",
+      "question": "《2024年8月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "74e60160fec0590bf5a3b68f-e000003"
+      ],
+      "category": "text",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "17 μg/m³",
+      "fact_group": "2024年8月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8943129073439491,
+            0.47659074496389203
+          ],
+          "document_id": "74e60160fec0590bf5a3b68f",
+          "document_sha256": "74e60160fec0590bf5a3b68febf015995d4b167854ad37d91596acde16f97e0c"
+        }
+      ],
+      "scoring_points": [
+        "17 μg/m³"
+      ]
+    },
+    {
+      "id": "public-011",
+      "question": "据《2023年12月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "b41e6cf88f279769c4a582c6-e000005"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "81.9%",
+      "fact_group": "2023年12月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "b41e6cf88f279769c4a582c6",
+          "document_sha256": "b41e6cf88f279769c4a582c634de15d123579c23cdbf11a71487e77e9fc98531"
+        }
+      ],
+      "scoring_points": [
+        "81.9%"
+      ]
+    },
+    {
+      "id": "public-012",
+      "question": "《2023年12月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "b41e6cf88f279769c4a582c6-e000005"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "46 μg/m³",
+      "fact_group": "2023年12月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "b41e6cf88f279769c4a582c6",
+          "document_sha256": "b41e6cf88f279769c4a582c634de15d123579c23cdbf11a71487e77e9fc98531"
+        }
+      ],
+      "scoring_points": [
+        "46 μg/m³"
+      ]
+    },
+    {
+      "id": "public-013",
+      "question": "据《2023年6月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "1b79c10eb1e870a60a135d5a-e000006"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "78.3%",
+      "fact_group": "2023年6月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "1b79c10eb1e870a60a135d5a",
+          "document_sha256": "1b79c10eb1e870a60a135d5a790c2589ae80e59333e10dbbe98bf0c3a93e53f5"
+        }
+      ],
+      "scoring_points": [
+        "78.3%"
+      ]
+    },
+    {
+      "id": "public-014",
+      "question": "《2023年6月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "1b79c10eb1e870a60a135d5a-e000006"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "18 μg/m³",
+      "fact_group": "2023年6月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11916952227373513,
+            0.12356323641201061,
+            0.8844011959954308,
+            0.47659074496389203
+          ],
+          "document_id": "1b79c10eb1e870a60a135d5a",
+          "document_sha256": "1b79c10eb1e870a60a135d5a790c2589ae80e59333e10dbbe98bf0c3a93e53f5"
+        }
+      ],
+      "scoring_points": [
+        "18 μg/m³"
+      ]
+    },
+    {
+      "id": "public-015",
+      "question": "据《2025年12月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "d93e9d8c0d13945331ddaf1a-e000005"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "84.8%",
+      "fact_group": "2025年12月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 3,
+          "bbox": [
+            0.10399165439776621,
+            0.12050927946447622,
+            0.8693843417697483,
+            0.4637974229554298
+          ],
+          "document_id": "d93e9d8c0d13945331ddaf1a",
+          "document_sha256": "d93e9d8c0d13945331ddaf1a98a5b4d80e5b0acca320f778c98aa163a3bd0ed8"
+        }
+      ],
+      "scoring_points": [
+        "84.8%"
+      ]
+    },
+    {
+      "id": "public-016",
+      "question": "《2025年12月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "d93e9d8c0d13945331ddaf1a-e000005"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "44.6 μg/m³",
+      "fact_group": "2025年12月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 3,
+          "bbox": [
+            0.10399165439776621,
+            0.12050927946447622,
+            0.8693843417697483,
+            0.4637974229554298
+          ],
+          "document_id": "d93e9d8c0d13945331ddaf1a",
+          "document_sha256": "d93e9d8c0d13945331ddaf1a98a5b4d80e5b0acca320f778c98aa163a3bd0ed8"
+        }
+      ],
+      "scoring_points": [
+        "44.6 μg/m³"
+      ]
+    },
+    {
+      "id": "public-017",
+      "question": "据《2025年11月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "0e441847787f9cc414c2bee4-e000004"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "88.2%",
+      "fact_group": "2025年11月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8941861246430374,
+            0.4771098033105146
+          ],
+          "document_id": "0e441847787f9cc414c2bee4",
+          "document_sha256": "0e441847787f9cc414c2bee400512b2d79c960c42f8d68bb6d0f962aff1e0b4d"
+        }
+      ],
+      "scoring_points": [
+        "88.2%"
+      ]
+    },
+    {
+      "id": "public-018",
+      "question": "《2025年11月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "0e441847787f9cc414c2bee4-e000004"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "33.9 μg/m³",
+      "fact_group": "2025年11月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8941861246430374,
+            0.4771098033105146
+          ],
+          "document_id": "0e441847787f9cc414c2bee4",
+          "document_sha256": "0e441847787f9cc414c2bee400512b2d79c960c42f8d68bb6d0f962aff1e0b4d"
+        }
+      ],
+      "scoring_points": [
+        "33.9 μg/m³"
+      ]
+    },
+    {
+      "id": "public-019",
+      "question": "据《2025年10月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "159a55b26ddbbaa453988e53-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "96.2%",
+      "fact_group": "2025年10月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4304753211290151
+          ],
+          "document_id": "159a55b26ddbbaa453988e53",
+          "document_sha256": "159a55b26ddbbaa453988e532071654751873f1550afe8257fa6149549bfde40"
+        }
+      ],
+      "scoring_points": [
+        "96.2%"
+      ]
+    },
+    {
+      "id": "public-020",
+      "question": "《2025年10月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "159a55b26ddbbaa453988e53-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "23.5 μg/m³",
+      "fact_group": "2025年10月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4304753211290151
+          ],
+          "document_id": "159a55b26ddbbaa453988e53",
+          "document_sha256": "159a55b26ddbbaa453988e532071654751873f1550afe8257fa6149549bfde40"
+        }
+      ],
+      "scoring_points": [
+        "23.5 μg/m³"
+      ]
+    },
+    {
+      "id": "public-021",
+      "question": "据《2025年9月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "235c6b674283442d61520311-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "96.2%",
+      "fact_group": "2025年9月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4304753211290151
+          ],
+          "document_id": "235c6b674283442d61520311",
+          "document_sha256": "235c6b674283442d615203111289ff30d0bbcfcba0d7bc3fa34e7d48624e84ed"
+        }
+      ],
+      "scoring_points": [
+        "96.2%"
+      ]
+    },
+    {
+      "id": "public-022",
+      "question": "《2025年9月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "235c6b674283442d61520311-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "16.0 μg/m³",
+      "fact_group": "2025年9月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4304753211290151
+          ],
+          "document_id": "235c6b674283442d61520311",
+          "document_sha256": "235c6b674283442d615203111289ff30d0bbcfcba0d7bc3fa34e7d48624e84ed"
+        }
+      ],
+      "scoring_points": [
+        "16.0 μg/m³"
+      ]
+    },
+    {
+      "id": "public-023",
+      "question": "据《2025年8月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "88f175e8586eedc3566170b4-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "96.0%",
+      "fact_group": "2025年8月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8941861246430374,
+            0.4659920933687163
+          ],
+          "document_id": "88f175e8586eedc3566170b4",
+          "document_sha256": "88f175e8586eedc3566170b4ee522de9134786b7629c72358d65e73d5bb2beb7"
+        }
+      ],
+      "scoring_points": [
+        "96.0%"
+      ]
+    },
+    {
+      "id": "public-024",
+      "question": "《2025年8月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "88f175e8586eedc3566170b4-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "13.9 μg/m³",
+      "fact_group": "2025年8月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8941861246430374,
+            0.4659920933687163
+          ],
+          "document_id": "88f175e8586eedc3566170b4",
+          "document_sha256": "88f175e8586eedc3566170b4ee522de9134786b7629c72358d65e73d5bb2beb7"
+        }
+      ],
+      "scoring_points": [
+        "13.9 μg/m³"
+      ]
+    },
+    {
+      "id": "public-025",
+      "question": "据《2025年7月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "4d1dac3a6f29d9430daa0378-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "93.0%",
+      "fact_group": "2025年7月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "4d1dac3a6f29d9430daa0378",
+          "document_sha256": "4d1dac3a6f29d9430daa0378c8819e9e2d0e71dd16046b206d68c0268d601328"
+        }
+      ],
+      "scoring_points": [
+        "93.0%"
+      ]
+    },
+    {
+      "id": "public-026",
+      "question": "《2025年7月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "4d1dac3a6f29d9430daa0378-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "14.5 μg/m³",
+      "fact_group": "2025年7月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "4d1dac3a6f29d9430daa0378",
+          "document_sha256": "4d1dac3a6f29d9430daa0378c8819e9e2d0e71dd16046b206d68c0268d601328"
+        }
+      ],
+      "scoring_points": [
+        "14.5 μg/m³"
+      ]
+    },
+    {
+      "id": "public-027",
+      "question": "据《2025年6月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "949c0a1664394b572b369843-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "84.0%",
+      "fact_group": "2025年6月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8941861246430374,
+            0.4659920933687163
+          ],
+          "document_id": "949c0a1664394b572b369843",
+          "document_sha256": "949c0a1664394b572b369843b0efe79b2bcae5796ee122724d5e0da93f9ea061"
+        }
+      ],
+      "scoring_points": [
+        "84.0%"
+      ]
+    },
+    {
+      "id": "public-028",
+      "question": "《2025年6月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "949c0a1664394b572b369843-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "16.3 μg/m³",
+      "fact_group": "2025年6月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8941861246430374,
+            0.4659920933687163
+          ],
+          "document_id": "949c0a1664394b572b369843",
+          "document_sha256": "949c0a1664394b572b369843b0efe79b2bcae5796ee122724d5e0da93f9ea061"
+        }
+      ],
+      "scoring_points": [
+        "16.3 μg/m³"
+      ]
+    },
+    {
+      "id": "public-029",
+      "question": "据《2025年5月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "29c4945d63d20e72d0aee15f-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "81.9%",
+      "fact_group": "2025年5月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "29c4945d63d20e72d0aee15f",
+          "document_sha256": "29c4945d63d20e72d0aee15f550d6e048dc4b933fb8f5528d4f745bf41f2fb55"
+        }
+      ],
+      "scoring_points": [
+        "81.9%"
+      ]
+    },
+    {
+      "id": "public-030",
+      "question": "《2025年5月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "29c4945d63d20e72d0aee15f-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "24.5 μg/m³",
+      "fact_group": "2025年5月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "29c4945d63d20e72d0aee15f",
+          "document_sha256": "29c4945d63d20e72d0aee15f550d6e048dc4b933fb8f5528d4f745bf41f2fb55"
+        }
+      ],
+      "scoring_points": [
+        "24.5 μg/m³"
+      ]
+    },
+    {
+      "id": "public-031",
+      "question": "据《2025年4月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "996eb44c012c32b9146c4123-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "83.1%",
+      "fact_group": "2025年4月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "996eb44c012c32b9146c4123",
+          "document_sha256": "996eb44c012c32b9146c4123d48595e91dc22d9017c23a1414b47aedca8e334b"
+        }
+      ],
+      "scoring_points": [
+        "83.1%"
+      ]
+    },
+    {
+      "id": "public-032",
+      "question": "《2025年4月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "996eb44c012c32b9146c4123-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "28.1 μg/m³",
+      "fact_group": "2025年4月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12539701864829547,
+            0.8843104317151018,
+            0.4659920933687163
+          ],
+          "document_id": "996eb44c012c32b9146c4123",
+          "document_sha256": "996eb44c012c32b9146c4123d48595e91dc22d9017c23a1414b47aedca8e334b"
+        }
+      ],
+      "scoring_points": [
+        "28.1 μg/m³"
+      ]
+    },
+    {
+      "id": "public-033",
+      "question": "据《2025年3月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "0887836d42344a9fbc6e8036-e000004"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "86.6%",
+      "fact_group": "2025年3月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12753503979094907,
+            0.8843104317151018,
+            0.4788202202246374
+          ],
+          "document_id": "0887836d42344a9fbc6e8036",
+          "document_sha256": "0887836d42344a9fbc6e80368e133431f332179275866d1602422556591f72fd"
+        }
+      ],
+      "scoring_points": [
+        "86.6%"
+      ]
+    },
+    {
+      "id": "public-034",
+      "question": "《2025年3月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "0887836d42344a9fbc6e8036-e000004"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "31.5 μg/m³",
+      "fact_group": "2025年3月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12753503979094907,
+            0.8843104317151018,
+            0.4788202202246374
+          ],
+          "document_id": "0887836d42344a9fbc6e8036",
+          "document_sha256": "0887836d42344a9fbc6e80368e133431f332179275866d1602422556591f72fd"
+        }
+      ],
+      "scoring_points": [
+        "31.5 μg/m³"
+      ]
+    },
+    {
+      "id": "public-035",
+      "question": "据《2025年2月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "92029df5ab59a3966ba24213-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "90.1%",
+      "fact_group": "2025年2月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8849151688224425,
+            0.4771098033105146
+          ],
+          "document_id": "92029df5ab59a3966ba24213",
+          "document_sha256": "92029df5ab59a3966ba24213203f6a4c99a75035680a0b0aaf0c3f13f78f6818"
+        }
+      ],
+      "scoring_points": [
+        "90.1%"
+      ]
+    },
+    {
+      "id": "public-036",
+      "question": "《2025年2月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "92029df5ab59a3966ba24213-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "37.3 μg/m³",
+      "fact_group": "2025年2月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8849151688224425,
+            0.4771098033105146
+          ],
+          "document_id": "92029df5ab59a3966ba24213",
+          "document_sha256": "92029df5ab59a3966ba24213203f6a4c99a75035680a0b0aaf0c3f13f78f6818"
+        }
+      ],
+      "scoring_points": [
+        "37.3 μg/m³"
+      ]
+    },
+    {
+      "id": "public-037",
+      "question": "据《2025年1月全国城市空气质量报告》，当月全国地级及以上城市的平均空气质量优良天数比例是多少？",
+      "relevant_element_ids": [
+        "3682574296c098bacac09e8f-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "78.0%",
+      "fact_group": "2025年1月-national-good-days",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8843104317151018,
+            0.4771098033105146
+          ],
+          "document_id": "3682574296c098bacac09e8f",
+          "document_sha256": "3682574296c098bacac09e8f1b0aa6d400f11e10b42e8c7162c7b069f177c6c2"
+        }
+      ],
+      "scoring_points": [
+        "78.0%"
+      ]
+    },
+    {
+      "id": "public-038",
+      "question": "《2025年1月全国城市空气质量报告》给出的当月全国城市PM2.5平均浓度是多少？请注明单位。",
+      "relevant_element_ids": [
+        "3682574296c098bacac09e8f-e000003"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "53.1 μg/m³",
+      "fact_group": "2025年1月-national-pm25",
+      "reference_sources": [
+        {
+          "page": 2,
+          "bbox": [
+            0.11913321014614481,
+            0.12368778952369638,
+            0.8843104317151018,
+            0.4771098033105146
+          ],
+          "document_id": "3682574296c098bacac09e8f",
+          "document_sha256": "3682574296c098bacac09e8f1b0aa6d400f11e10b42e8c7162c7b069f177c6c2"
+        }
+      ],
+      "scoring_points": [
+        "53.1 μg/m³"
+      ]
+    },
+    {
+      "id": "public-039",
+      "question": "第55次互联网统计报告回顾：中国全功能接入国际互联网的专线在哪一天开通，带宽是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000061"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "1994年4月20日；64K。",
+      "fact_group": "china-first-internet-connection",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.1513790414571451,
+            0.5687771500580723,
+            0.8550001227383188,
+            0.7780060208437353
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "1994年4月20日；64K。"
+      ]
+    },
+    {
+      "id": "public-040",
+      "question": "第55次互联网统计报告中，截至2024年12月生成式人工智能产品的用户规模和占整体人口比例分别是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000054"
+      ],
+      "category": "text",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "2.49亿人；17.7%。",
+      "fact_group": "genai-total-users-2024",
+      "reference_sources": [
+        {
+          "page": 8,
+          "bbox": [
+            0.15138675125352077,
+            0.6476601825353321,
+            0.8450377703438422,
+            0.691227559280225
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "2.49亿人；17.7%。"
+      ]
+    },
+    {
+      "id": "public-041",
+      "question": "请查《2024年12月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：SO2的年平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "99c6dd0d055f3eca90811268-e000045"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "20、60 μg/m³",
+      "fact_group": "standard-SO2-年平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10889667792608275,
+            0.1648737166669759,
+            0.8906455840040374,
+            0.4724323698573894
+          ],
+          "document_id": "99c6dd0d055f3eca90811268",
+          "document_sha256": "99c6dd0d055f3eca90811268901c14db755db7e69753c83da52d086587579fea"
+        }
+      ],
+      "scoring_points": [
+        "20、60 μg/m³"
+      ]
+    },
+    {
+      "id": "public-042",
+      "question": "请查《2024年11月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：NO2的年平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "783b2846d1498e959cee045e-e000049"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "40、40 μg/m³",
+      "fact_group": "standard-NO2-年平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10889547463231439,
+            0.16484341655377813,
+            0.890668420983641,
+            0.4724368641325527
+          ],
+          "document_id": "783b2846d1498e959cee045e",
+          "document_sha256": "783b2846d1498e959cee045e6d5a16a895f4059cca04e76e5196ad6e84c9d0ab"
+        }
+      ],
+      "scoring_points": [
+        "40、40 μg/m³"
+      ]
+    },
+    {
+      "id": "public-043",
+      "question": "请查《2024年10月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：CO的24小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "096c4f3c921a3854b028c46e-e000048"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "4、4 mg/m³",
+      "fact_group": "standard-CO-24小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.108889227745517,
+            0.16483740002412414,
+            0.8906712884070889,
+            0.472438821316898
+          ],
+          "document_id": "096c4f3c921a3854b028c46e",
+          "document_sha256": "096c4f3c921a3854b028c46e87453f397c8bc80067b23ea15f6b9d9afa724f03"
+        }
+      ],
+      "scoring_points": [
+        "4、4 mg/m³"
+      ]
+    },
+    {
+      "id": "public-044",
+      "question": "请查《2024年9月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：O3的8小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "396a42082c35451a4099cf12-e000044"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "100、160 μg/m³",
+      "fact_group": "standard-O3-8小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.1088787053255427,
+            0.16485423543390917,
+            0.8906654511522126,
+            0.4724324423456984
+          ],
+          "document_id": "396a42082c35451a4099cf12",
+          "document_sha256": "396a42082c35451a4099cf12b837e5a1acc2d55da718724ff7196d47a339a988"
+        }
+      ],
+      "scoring_points": [
+        "100、160 μg/m³"
+      ]
+    },
+    {
+      "id": "public-045",
+      "question": "请查《2024年8月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM10的年平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "74e60160fec0590bf5a3b68f-e000046"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "40、70 μg/m³",
+      "fact_group": "standard-PM10-年平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.11840838233896549,
+            0.16514348190923767,
+            0.8997576412738569,
+            0.47228043436154615
+          ],
+          "document_id": "74e60160fec0590bf5a3b68f",
+          "document_sha256": "74e60160fec0590bf5a3b68febf015995d4b167854ad37d91596acde16f97e0c"
+        }
+      ],
+      "scoring_points": [
+        "40、70 μg/m³"
+      ]
+    },
+    {
+      "id": "public-046",
+      "question": "请查《2023年12月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM2.5的年平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "b41e6cf88f279769c4a582c6-e000048"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "15、35 μg/m³",
+      "fact_group": "standard-PM2.5-年平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10889964775751101,
+            0.1648700922515217,
+            0.8906509092190121,
+            0.4724323698573894
+          ],
+          "document_id": "b41e6cf88f279769c4a582c6",
+          "document_sha256": "b41e6cf88f279769c4a582c634de15d123579c23cdbf11a71487e77e9fc98531"
+        }
+      ],
+      "scoring_points": [
+        "15、35 μg/m³"
+      ]
+    },
+    {
+      "id": "public-047",
+      "question": "请查《2023年6月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：SO2的24小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "1b79c10eb1e870a60a135d5a-e000049"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "50、150 μg/m³",
+      "fact_group": "standard-SO2-24小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10885417861426437,
+            0.16486282529853577,
+            0.8906192651531041,
+            0.47245592855784213
+          ],
+          "document_id": "1b79c10eb1e870a60a135d5a",
+          "document_sha256": "1b79c10eb1e870a60a135d5a790c2589ae80e59333e10dbbe98bf0c3a93e53f5"
+        }
+      ],
+      "scoring_points": [
+        "50、150 μg/m³"
+      ]
+    },
+    {
+      "id": "public-048",
+      "question": "请查《2025年12月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：SO2的1小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "d93e9d8c0d13945331ddaf1a-e000042"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "150、500 μg/m³",
+      "fact_group": "standard-SO2-1小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10852113506137924,
+            0.15888922684549434,
+            0.8905895668388212,
+            0.4658602898024607
+          ],
+          "document_id": "d93e9d8c0d13945331ddaf1a",
+          "document_sha256": "d93e9d8c0d13945331ddaf1a98a5b4d80e5b0acca320f778c98aa163a3bd0ed8"
+        }
+      ],
+      "scoring_points": [
+        "150、500 μg/m³"
+      ]
+    },
+    {
+      "id": "public-049",
+      "question": "请查《2025年11月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：NO2的24小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "0e441847787f9cc414c2bee4-e000040"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "80、80 μg/m³",
+      "fact_group": "standard-NO2-24小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 8,
+          "bbox": [
+            0.10874757190678744,
+            0.16456598567283068,
+            0.8908934113163276,
+            0.4725440743416902
+          ],
+          "document_id": "0e441847787f9cc414c2bee4",
+          "document_sha256": "0e441847787f9cc414c2bee400512b2d79c960c42f8d68bb6d0f962aff1e0b4d"
+        }
+      ],
+      "scoring_points": [
+        "80、80 μg/m³"
+      ]
+    },
+    {
+      "id": "public-050",
+      "question": "请查《2025年10月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：NO2的1小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "159a55b26ddbbaa453988e53-e000046"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "200、200 μg/m³",
+      "fact_group": "standard-NO2-1小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10863634403920014,
+            0.16451779906936614,
+            0.8909531151688339,
+            0.4725359556510726
+          ],
+          "document_id": "159a55b26ddbbaa453988e53",
+          "document_sha256": "159a55b26ddbbaa453988e532071654751873f1550afe8257fa6149549bfde40"
+        }
+      ],
+      "scoring_points": [
+        "200、200 μg/m³"
+      ]
+    },
+    {
+      "id": "public-051",
+      "question": "请查《2025年9月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：CO的1小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "235c6b674283442d61520311-e000046"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "10、10 mg/m³",
+      "fact_group": "standard-CO-1小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10862844582372064,
+            0.1645206442354977,
+            0.890961410215237,
+            0.47254063114700867
+          ],
+          "document_id": "235c6b674283442d61520311",
+          "document_sha256": "235c6b674283442d615203111289ff30d0bbcfcba0d7bc3fa34e7d48624e84ed"
+        }
+      ],
+      "scoring_points": [
+        "10、10 mg/m³"
+      ]
+    },
+    {
+      "id": "public-052",
+      "question": "请查《2025年8月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：O3的1小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "88f175e8586eedc3566170b4-e000044"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "160、200 μg/m³",
+      "fact_group": "standard-O3-1小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 8,
+          "bbox": [
+            0.10863956989057913,
+            0.16452606273660184,
+            0.8909403141712984,
+            0.47253287489793644
+          ],
+          "document_id": "88f175e8586eedc3566170b4",
+          "document_sha256": "88f175e8586eedc3566170b4ee522de9134786b7629c72358d65e73d5bb2beb7"
+        }
+      ],
+      "scoring_points": [
+        "160、200 μg/m³"
+      ]
+    },
+    {
+      "id": "public-053",
+      "question": "请查《2025年7月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM10的24小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "4d1dac3a6f29d9430daa0378-e000045"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "50、150 μg/m³",
+      "fact_group": "standard-PM10-24小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 8,
+          "bbox": [
+            0.10859767222564491,
+            0.16452051738095674,
+            0.8909585427917889,
+            0.47251699995824675
+          ],
+          "document_id": "4d1dac3a6f29d9430daa0378",
+          "document_sha256": "4d1dac3a6f29d9430daa0378c8819e9e2d0e71dd16046b206d68c0268d601328"
+        }
+      ],
+      "scoring_points": [
+        "50、150 μg/m³"
+      ]
+    },
+    {
+      "id": "public-054",
+      "question": "请查《2025年6月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM2.5的24小时平均一级和二级是多少？",
+      "relevant_element_ids": [
+        "949c0a1664394b572b369843-e000045"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "35、75 μg/m³",
+      "fact_group": "standard-PM2.5-24小时平均-一级和二级",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10858971000517775,
+            0.16452176780428845,
+            0.8909507597852874,
+            0.4725166012725468
+          ],
+          "document_id": "949c0a1664394b572b369843",
+          "document_sha256": "949c0a1664394b572b369843b0efe79b2bcae5796ee122724d5e0da93f9ea061"
+        }
+      ],
+      "scoring_points": [
+        "35、75 μg/m³"
+      ]
+    },
+    {
+      "id": "public-055",
+      "question": "请查《2025年5月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM10的年平均二级与一级限值之比是多少？",
+      "relevant_element_ids": [
+        "29c4945d63d20e72d0aee15f-e000045"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "70/40 = 1.75倍",
+      "fact_group": "standard-PM10-年平均-二级与一级限值之比",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10852980133671089,
+            0.16460099752611895,
+            0.8910278729944421,
+            0.47243342093787116
+          ],
+          "document_id": "29c4945d63d20e72d0aee15f",
+          "document_sha256": "29c4945d63d20e72d0aee15f550d6e048dc4b933fb8f5528d4f745bf41f2fb55"
+        }
+      ],
+      "scoring_points": [
+        "70/40 = 1.75倍"
+      ]
+    },
+    {
+      "id": "public-056",
+      "question": "请查《2025年4月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：SO2的年平均二级减一级的差值是多少？",
+      "relevant_element_ids": [
+        "996eb44c012c32b9146c4123-e000044"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "60-20 = 40 μg/m³",
+      "fact_group": "standard-SO2-年平均-二级减一级的差值",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10858971000517775,
+            0.16452176780428845,
+            0.8909507597852874,
+            0.4725166012725468
+          ],
+          "document_id": "996eb44c012c32b9146c4123",
+          "document_sha256": "996eb44c012c32b9146c4123d48595e91dc22d9017c23a1414b47aedca8e334b"
+        }
+      ],
+      "scoring_points": [
+        "60-20 = 40 μg/m³"
+      ]
+    },
+    {
+      "id": "public-057",
+      "question": "请查《2025年3月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：PM2.5的24小时平均二级减一级的差值是多少？",
+      "relevant_element_ids": [
+        "0887836d42344a9fbc6e8036-e000048"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "75-35 = 40 μg/m³",
+      "fact_group": "standard-PM2.5-24小时平均-二级减一级的差值",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10859251342363804,
+            0.16450966225667127,
+            0.8909594644636116,
+            0.47253055527204574
+          ],
+          "document_id": "0887836d42344a9fbc6e8036",
+          "document_sha256": "0887836d42344a9fbc6e80368e133431f332179275866d1602422556591f72fd"
+        }
+      ],
+      "scoring_points": [
+        "75-35 = 40 μg/m³"
+      ]
+    },
+    {
+      "id": "public-058",
+      "question": "请查《2025年2月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：NO2的1小时平均二级与一级限值之比是多少？",
+      "relevant_element_ids": [
+        "92029df5ab59a3966ba24213-e000046"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "200/200 = 1倍",
+      "fact_group": "standard-NO2-1小时平均-二级与一级限值之比",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10858971000517775,
+            0.16452176780428845,
+            0.8909507597852874,
+            0.4725166012725468
+          ],
+          "document_id": "92029df5ab59a3966ba24213",
+          "document_sha256": "92029df5ab59a3966ba24213203f6a4c99a75035680a0b0aaf0c3f13f78f6818"
+        }
+      ],
+      "scoring_points": [
+        "200/200 = 1倍"
+      ]
+    },
+    {
+      "id": "public-059",
+      "question": "请查《2025年1月全国城市空气质量报告》的“环境空气污染物基本项目浓度限值”表：CO的24小时平均和1小时平均二级限值分别是多少？",
+      "relevant_element_ids": [
+        "3682574296c098bacac09e8f-e000047"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "4、10 mg/m³",
+      "fact_group": "standard-CO-24小时平均和1小时平均-二级限值分别",
+      "reference_sources": [
+        {
+          "page": 9,
+          "bbox": [
+            0.10858971000517775,
+            0.16452176780428845,
+            0.8909507597852874,
+            0.4725166012725468
+          ],
+          "document_id": "3682574296c098bacac09e8f",
+          "document_sha256": "3682574296c098bacac09e8f1b0aa6d400f11e10b42e8c7162c7b069f177c6c2"
+        }
+      ],
+      "scoring_points": [
+        "4、10 mg/m³"
+      ]
+    },
+    {
+      "id": "public-060",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表2中.COM域名的准确数量是多少个？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000136"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "7,047,974个",
+      "fact_group": "domain-com",
+      "reference_sources": [
+        {
+          "page": 17,
+          "bbox": [
+            0.26067781996452943,
+            0.6228570291989541,
+            0.7344383152051903,
+            0.810710214340913
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "7,047,974个"
+      ]
+    },
+    {
+      "id": "public-061",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表2中“.中国”域名的准确数量是多少个？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000136"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "165,265个",
+      "fact_group": "domain-china",
+      "reference_sources": [
+        {
+          "page": 17,
+          "bbox": [
+            0.26067781996452943,
+            0.6228570291989541,
+            0.7344383152051903,
+            0.810710214340913
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "165,265个"
+      ]
+    },
+    {
+      "id": "public-062",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表3中.GOV.CN域名的数量是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000146"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "12,608个",
+      "fact_group": "domain-gov",
+      "reference_sources": [
+        {
+          "page": 18,
+          "bbox": [
+            0.26087796733753893,
+            0.11211991762404194,
+            0.7344065114456119,
+            0.33233235263566013
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "12,608个"
+      ]
+    },
+    {
+      "id": "public-063",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表3中.EDU.CN域名的数量是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000146"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "6,857个",
+      "fact_group": "domain-edu",
+      "reference_sources": [
+        {
+          "page": 18,
+          "bbox": [
+            0.26087796733753893,
+            0.11211991762404194,
+            0.7344065114456119,
+            0.33233235263566013
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "6,857个"
+      ]
+    },
+    {
+      "id": "public-064",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表5中即时通信在2024年12月的用户规模和网民使用率分别是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000305"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "108,133万人；97.6%。",
+      "fact_group": "im-users-2024",
+      "reference_sources": [
+        {
+          "page": 33,
+          "bbox": [
+            0.14007639976296846,
+            0.5437320616187119,
+            0.8544396879115781,
+            0.846120694788491
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "108,133万人；97.6%。"
+      ]
+    },
+    {
+      "id": "public-065",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，表5中的短视频用户规模增长率是多少，是否为负增长？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000305"
+      ],
+      "category": "table",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "-1.3%；是负增长。",
+      "fact_group": "short-video-growth",
+      "reference_sources": [
+        {
+          "page": 33,
+          "bbox": [
+            0.14007639976296846,
+            0.5437320616187119,
+            0.8544396879115781,
+            0.846120694788491
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "-1.3%；是负增长。"
+      ]
+    },
+    {
+      "id": "public-066",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图1所示的IPv6地址数量从2020年12月至2024年12月呈什么变化趋势，最后一期是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000127"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "逐年增加；2024年12月为69,148块/32。",
+      "fact_group": "cnnic55-figure-1",
+      "reference_sources": [
+        {
+          "page": 16,
+          "bbox": [
+            0.1722429355899036,
+            0.14313969185681844,
+            0.8221348437312919,
+            0.41482184185245174
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "逐年增加；2024年12月为69,148块/32。"
+      ]
+    },
+    {
+      "id": "public-067",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图2中2021年12月的IPv6活跃用户数是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000130"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "5.35亿。",
+      "fact_group": "cnnic55-figure-2",
+      "reference_sources": [
+        {
+          "page": 16,
+          "bbox": [
+            0.17203903198242188,
+            0.49659423001090364,
+            0.8221114001511615,
+            0.7477966143186823
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "5.35亿。"
+      ]
+    },
+    {
+      "id": "public-068",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，读取图4，2022年12月的5G基站数量是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000150"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "231.2万个。",
+      "fact_group": "cnnic55-figure-4",
+      "reference_sources": [
+        {
+          "page": 18,
+          "bbox": [
+            0.17209634013559627,
+            0.46508582303840623,
+            0.8221595150300827,
+            0.7368282328453167
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "231.2万个。"
+      ]
+    },
+    {
+      "id": "public-069",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，根据图5，2024年11月比2020年12月增加了多少互联网宽带接入端口？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000158"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "11.99-9.46 = 2.53亿个。",
+      "fact_group": "cnnic55-figure-5",
+      "reference_sources": [
+        {
+          "page": 19,
+          "bbox": [
+            0.17211753289818307,
+            0.2556824102634337,
+            0.822133148310285,
+            0.4880593566067497
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "11.99-9.46 = 2.53亿个。"
+      ]
+    },
+    {
+      "id": "public-070",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图6中2022年12月的光缆线路总长度是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000162"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "5,958万公里。",
+      "fact_group": "cnnic55-figure-6",
+      "reference_sources": [
+        {
+          "page": 19,
+          "bbox": [
+            0.1723974381370106,
+            0.6597842084683054,
+            0.8220228874820402,
+            0.882268890132749
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "5,958万公里。"
+      ]
+    },
+    {
+      "id": "public-071",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，根据图7，从2023年12月到2024年12月网站数量增加了多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000169"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "446-388 = 58万个。",
+      "fact_group": "cnnic55-figure-7",
+      "reference_sources": [
+        {
+          "page": 20,
+          "bbox": [
+            0.1819722990423327,
+            0.22731026336752633,
+            0.8138849835742936,
+            0.4604723343681191
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "446-388 = 58万个。"
+      ]
+    },
+    {
+      "id": "public-072",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图8中2021年12月的网页数量是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000173"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "3,350亿个。",
+      "fact_group": "cnnic55-figure-8",
+      "reference_sources": [
+        {
+          "page": 20,
+          "bbox": [
+            0.1721376733304897,
+            0.6061329828691353,
+            0.8226496670894696,
+            0.878632915052295
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "3,350亿个。"
+      ]
+    },
+    {
+      "id": "public-073",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图10中2021年12月的网民规模和互联网普及率分别是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000201"
+      ],
+      "category": "chart",
+      "split": "dev",
+      "answerable": true,
+      "reference_answer": "103,195万人；73.0%。",
+      "fact_group": "cnnic55-figure-10",
+      "reference_sources": [
+        {
+          "page": 23,
+          "bbox": [
+            0.15985697896087764,
+            0.5397530325706089,
+            0.8328911207644876,
+            0.8111076871877118
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "103,195万人；73.0%。"
+      ]
+    },
+    {
+      "id": "public-074",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图11中2022年12月的手机网民规模及其占网民比例分别是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000208"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "106,510万人；99.8%。",
+      "fact_group": "cnnic55-figure-11",
+      "reference_sources": [
+        {
+          "page": 24,
+          "bbox": [
+            0.16020610414702316,
+            0.12521331290888588,
+            0.8330420132341056,
+            0.3960236340034299
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "106,510万人；99.8%。"
+      ]
+    },
+    {
+      "id": "public-075",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图12显示，农村网民占比从2023年12月至2024年12月改变了多少个百分点？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000223"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "从29.8%降至28.2%，下降1.6个百分点。",
+      "fact_group": "cnnic55-figure-12",
+      "reference_sources": [
+        {
+          "page": 25,
+          "bbox": [
+            0.19085699205654336,
+            0.43836420984449104,
+            0.8019958729944924,
+            0.6774370146960748
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "从29.8%降至28.2%，下降1.6个百分点。"
+      ]
+    },
+    {
+      "id": "public-076",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图13列出的不上网生活不便中，占比最低的是哪项，比例是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000244"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "很难买到火车票、飞机票；5.0%。",
+      "fact_group": "cnnic55-figure-13",
+      "reference_sources": [
+        {
+          "page": 27,
+          "bbox": [
+            0.1489593973561722,
+            0.09090707877141034,
+            0.8463031286480783,
+            0.3764055867182207
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "很难买到火车票、飞机票；5.0%。"
+      ]
+    },
+    {
+      "id": "public-077",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图14中因没有电脑等上网设备而不上网的比例，比不需要或不感兴趣高多少个百分点？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000247"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "13.0%-6.1% = 6.9个百分点。",
+      "fact_group": "cnnic55-figure-14",
+      "reference_sources": [
+        {
+          "page": 27,
+          "bbox": [
+            0.1489717330055675,
+            0.567221871559536,
+            0.8462399303684747,
+            0.8054177715849425
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "13.0%-6.1% = 6.9个百分点。"
+      ]
+    },
+    {
+      "id": "public-078",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图15中促进非网民上网的前两项因素及其比例是什么？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000253"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "方便与家人或亲属沟通联系18.7%；提供可以无障碍使用的上网设备18.4%。",
+      "fact_group": "cnnic55-figure-15",
+      "reference_sources": [
+        {
+          "page": 28,
+          "bbox": [
+            0.14898216861417923,
+            0.15276667483776887,
+            0.8462274777934926,
+            0.40623226010702496
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "方便与家人或亲属沟通联系18.7%；提供可以无障碍使用的上网设备18.4%。"
+      ]
+    },
+    {
+      "id": "public-079",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，按图16，男性网民占比比女性高多少个百分点？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000258"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "51.1%-48.9% = 2.2个百分点。",
+      "fact_group": "cnnic55-figure-16",
+      "reference_sources": [
+        {
+          "page": 28,
+          "bbox": [
+            0.14980319085249041,
+            0.6440119135993606,
+            0.846565100425048,
+            0.868443434800559
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "51.1%-48.9% = 2.2个百分点。"
+      ]
+    },
+    {
+      "id": "public-080",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，按图17的两个年龄分组相加，50岁及以上网民合计占比是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000263"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "20.0%+14.1% = 34.1%。",
+      "fact_group": "cnnic55-figure-17",
+      "reference_sources": [
+        {
+          "page": 29,
+          "bbox": [
+            0.15024006869144366,
+            0.23054231473100859,
+            0.8228316033023527,
+            0.44024728501069194
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "20.0%+14.1% = 34.1%。"
+      ]
+    },
+    {
+      "id": "public-081",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图18中排除手机后，使用比例最高的上网设备是哪一种，比例是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000267"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "台式电脑；36.2%。",
+      "fact_group": "cnnic55-figure-18",
+      "reference_sources": [
+        {
+          "page": 29,
+          "bbox": [
+            0.08962583724566348,
+            0.6687764320270156,
+            0.9112547658869133,
+            0.8913603164962315
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "台式电脑；36.2%。"
+      ]
+    },
+    {
+      "id": "public-082",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图19中网民人均每周上网时长最高和最低的年份分别是哪年，差多少小时？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000276"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "最高2024年28.7小时，最低2023年26.1小时；差2.6小时。",
+      "fact_group": "cnnic55-figure-19",
+      "reference_sources": [
+        {
+          "page": 30,
+          "bbox": [
+            0.19113150410268498,
+            0.2621817033142256,
+            0.8025785716557412,
+            0.5066982362328506
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "最高2024年28.7小时，最低2023年26.1小时；差2.6小时。"
+      ]
+    },
+    {
+      "id": "public-083",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图21中使用编程语言编写计算机程序的熟练掌握、基本掌握比例及合计是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000296"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "3.6%、4.9%，合计8.5%。",
+      "fact_group": "cnnic55-figure-21",
+      "reference_sources": [
+        {
+          "page": 32,
+          "bbox": [
+            0.08880501962712899,
+            0.48067282079681145,
+            0.880102749528556,
+            0.8100885324038788
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "3.6%、4.9%，合计8.5%。"
+      ]
+    },
+    {
+      "id": "public-084",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图25中关注度最高和第二高的议题分别是什么，比例差是多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000364"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "社会新闻63.5%；养老、就业、教育等资讯50.7%；差12.8个百分点。",
+      "fact_group": "cnnic55-figure-25",
+      "reference_sources": [
+        {
+          "page": 38,
+          "bbox": [
+            0.1489157110338467,
+            0.42343635869220025,
+            0.8449994083565314,
+            0.7097638551458758
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "社会新闻63.5%；养老、就业、教育等资讯50.7%；差12.8个百分点。"
+      ]
+    },
+    {
+      "id": "public-085",
+      "question": "根据第55次《中国互联网络发展状况统计报告》，图35中生成式人工智能使用率最高与最低的是哪个年龄段，比例相差多少？",
+      "relevant_element_ids": [
+        "d20a33e7eb892f38245c5773-e000483"
+      ],
+      "category": "chart",
+      "split": "test",
+      "answerable": true,
+      "reference_answer": "20-29岁最高41.5%，50-59岁最低10.7%；相差30.8个百分点。",
+      "fact_group": "cnnic55-figure-35",
+      "reference_sources": [
+        {
+          "page": 50,
+          "bbox": [
+            0.16060584349650533,
+            0.0888243367678428,
+            0.832861538591056,
+            0.3599497890730861
+          ],
+          "document_id": "d20a33e7eb892f38245c5773",
+          "document_sha256": "d20a33e7eb892f38245c5773919cbec4c86e0671f601b9c9acb15e7b66278c5e"
+        }
+      ],
+      "scoring_points": [
+        "20-29岁最高41.5%，50-59岁最低10.7%；相差30.8个百分点。"
+      ]
+    },
+    {
+      "id": "public-086",
+      "question": "2025年12月全国城市空气质量报告有没有给出2027年12月全国PM2.5平均浓度的预测值？预测值是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "dev",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-1",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-087",
+      "question": "2025年11月全国城市空气质量报告中，全国监测站购买PM2.5分析仪的采购总金额是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "dev",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-2",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-088",
+      "question": "2024年12月全国城市空气质量报告是否披露了每个监测站负责人名单？具体名单是什么？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-3",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-089",
+      "question": "2024年11月全国城市空气质量报告给出的全国空气监测仪器平均使用寿命是多少年？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-4",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-090",
+      "question": "2024年10月全国城市空气质量报告给出了北京某一个家庭室内PM2.5的实测值吗？是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-5",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-091",
+      "question": "2024年9月全国城市空气质量报告是否披露了监测设备的具体品牌和型号？分别是什么？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-6",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-092",
+      "question": "2024年8月全国城市空气质量报告中，为改善空气质量新增的财政投入总额是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-7",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-093",
+      "question": "2023年12月全国城市空气质量报告中，用于预测污染物浓度的神经网络有多少参数？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-8",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-094",
+      "question": "2023年6月全国城市空气质量报告是否列出了全部城市每小时的原始监测序列？完整序列是什么？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-9",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-095",
+      "question": "2025年10月全国城市空气质量报告中，监测数据存储数据库使用了哪种数据库软件？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-10",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-096",
+      "question": "2025年9月全国城市空气质量报告中，编制该报告的人工工时总计是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-11",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-097",
+      "question": "2025年8月全国城市空气质量报告给出了2027年环境治理项目的逐项预算吗？金额是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-12",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-098",
+      "question": "第55次互联网统计报告是否公布了每一名受访者的原始逐题答卷？请列出全部答卷。",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-13",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-099",
+      "question": "第55次互联网统计报告是否预测了2030年我国网民规模的确定数值？具体是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-14",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    },
+    {
+      "id": "public-100",
+      "question": "第55次互联网统计报告中，受访者使用的生成式人工智能模型训练GPU数量分别是多少？",
+      "relevant_element_ids": [],
+      "category": "unanswerable",
+      "split": "test",
+      "answerable": false,
+      "reference_answer": "当前文档中没有足够依据。",
+      "fact_group": "unsupported-15",
+      "reference_sources": [],
+      "scoring_points": [
+        "明确说明文档未提供该信息；不编造数值、名单或序列。"
+      ]
+    }
+  ]
+}
